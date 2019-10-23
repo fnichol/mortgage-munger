@@ -3,6 +3,11 @@
 > When your bank gives you only garbage reports online and you need the data in
 > a spreadsheet
 
+|         |                                      |
+| ------: | ------------------------------------ |
+|      CI | [![CI Status][badge-ci-overall]][ci] |
+| License | [![License][badge-license]][license] |
+
 **Table of Contents**
 
 <!-- toc -->
@@ -76,5 +81,10 @@ Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the MPL-2.0 license, shall be
 licensed as above, without any additional terms or conditions.
 
+[badge-ci-overall]:
+  https://img.shields.io/cirrus/github/fnichol/mortgage-munger.svg?style=flat-square
+[badge-license]:
+  https://img.shields.io/badge/License-MPL%202.0-blue.svg?style=flat-square
+[ci]: https://cirrus-ci.com/github/fnichol/mortgage-munger
 [fnichol]: https://github.com/fnichol
 [license]: https://github.com/fnichol/mortgage-munger/blob/master/LICENSE.txt

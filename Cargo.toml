@@ -3,7 +3,7 @@ name = "mortgage-munger"
 version = "0.1.0"
 authors = ["Fletcher Nichol <fnichol@nichol.ca>"]
 edition = "2018"
-release = false
+publish = false
 
 [dependencies]
 transpose = "0.2.0"
