@@ -58,10 +58,10 @@ apologies.
 
 ## Contributing
 
-I advise that you do not contribute to this project. It should need to exist and
-comes up every year this author does his year end taxes. Consider contributing
-to other projects maintained by the author or donate your time to a worthy
-cause.
+I advise that you do not contribute to this project. It should **not** need to
+exist and comes up every year this author does his year end taxes. Consider
+contributing to other projects maintained by the author or donate your time to a
+worthy cause.
 
 ## Authors
 
