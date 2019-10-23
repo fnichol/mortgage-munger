@@ -1,0 +1,11 @@
+[package]
+name = "mortgage-munger"
+version = "0.1.0"
+authors = ["Fletcher Nichol <fnichol@nichol.ca>"]
+edition = "2018"
+release = false
+
+[dependencies]
+transpose = "0.2.0"
+csv = "1.1.1"
+chrono = "0.4.9"
