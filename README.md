@@ -1,7 +1,25 @@
 # Mortgage Munger
 
-This program takes multiple pastes to `stdin` of terrible Online Banking output report pages
-that look like this:
+> When your bank gives you only garbage reports online and you need the data in
+> a spreadsheet
+
+**Table of Contents**
+
+<!-- toc -->
+
+- [About](#about)
+- [Usage](#usage)
+- [Issues](#issues)
+- [Contributing](#contributing)
+- [Authors](#authors)
+- [License](#license)
+
+<!-- tocstop -->
+
+## About
+
+This program takes multiple pastes to `stdin` of terrible Online Banking output
+report pages that look like this:
 
 ```text
 Payment Date: 	Jul 20, 2018 	Jul 13, 2018 	Jul 6, 2018 	Jun 29, 2018 	Jun 22, 2018
@@ -27,21 +45,28 @@ You run the program:
 $ cargo run
 ```
 
-and paste each report page in, followed with a newline and `Ctrl+D` to send an `eof` to the
-`stdin` stream. Repeat this process for each page and when finished, end with a single newline
-and `Ctrl+D`. The CSV report will be output to `stdout`.
+and paste each report page in, followed with a newline and `Ctrl+D` to send an
+`eof` to the `stdin` stream. Repeat this process for each page and when
+finished, end with a single newline and `Ctrl+D`. The CSV report will be output
+to `stdout`.
 
 ## Issues
 
-If you have any problems with or questions about this project, then I really do feel for you as you might have the same problems as this author. The author apologies.
+If you have any problems with or questions about this project, then I really do
+feel for you as you might have the same problems as this author. The author
+apologies.
 
 ## Contributing
 
-I advise that you do not contribute to this project. It should need to exist and comes up every year this author does his year end taxes. Consider contributing to other projects maintained by the author or donate your time to a worthy cause.
+I advise that you do not contribute to this project. It should need to exist and
+comes up every year this author does his year end taxes. Consider contributing
+to other projects maintained by the author or donate your time to a worthy
+cause.
 
 ## Authors
 
-Angrily created and reluctantly maintained by [Fletcher Nichol][fnichol] (<fnichol@nichol.ca>).
+Angrily created and reluctantly maintained by [Fletcher Nichol][fnichol]
+(<fnichol@nichol.ca>).
 
 ## License
 
