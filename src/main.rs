@@ -47,19 +47,18 @@ fn read_pastes(writer: &mut Writer<Vec<u8>>, state: &mut State) -> Result<()> {
         }
 
         // Process the buffer
-        process_paste(buf, writer, state)?;
+        process_paste(&buf, writer, state)?;
     }
 
     Ok(())
 }
 
 /// Process each pasted text buffer.
-fn process_paste(buf: String, writer: &mut Writer<Vec<u8>>, state: &mut State) -> Result<()> {
+fn process_paste(buf: &str, writer: &mut Writer<Vec<u8>>, state: &mut State) -> Result<()> {
     // Arrange all trimmed fields on all lines to be one linear vec
     let input = buf
         .lines()
-        .map(|line| line.split('\t').map(|col| col.trim()))
-        .flatten()
+        .flat_map(|line| line.split('\t').map(str::trim))
         .collect::<Vec<_>>();
 
     // Prepare an output vec that's initialized with values (required by `transpose`)
